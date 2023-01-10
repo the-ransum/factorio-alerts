@@ -1,4 +1,5 @@
 local speaker = data.raw["programmable-speaker"]["programmable-speaker"]
+
 speaker.instruments[#speaker.instruments+1] = {
 	name = "simple_alert_sounds",
 	notes = {
