@@ -6,7 +6,7 @@ mod_info=$(cat "${cwd}/info.json")
 build_release=$(echo "${mod_info}" | jq -r '.version')
 build_name=$(echo "${mod_info}" | jq -r '.name')
 
-build_zip="${versions_dir}/${build_name}.${build_release}.zip"
+build_zip="${versions_dir}/${build_name}_${build_release}.zip"
 
 echo "Build Name: ${build_name}"
 echo "Build Release: ${build_release}"
