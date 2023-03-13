@@ -4,7 +4,7 @@
 	"title": "Simple Alert Sounds",
 	"author": "ransum",
 	"description": "A simple mod that adds in a couple selectable sound from Star Craft to play with programmable speakers.",
-	"homepage": "https://github.com/the-ransum/factorio-alerts",
+	"homepage": "https://github.com/xransum/factorio-alerts",
 	"factorio_version": "1.1",
 	"dependencies": [
 		"base >= 1.1.0"
